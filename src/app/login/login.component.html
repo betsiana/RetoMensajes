@@ -1,0 +1,12 @@
+<div class="text-align-center">
+  <form [formGroup]="loginForm">
+  <h1>Login</h1>
+  <input type="text" placeholder="Usuario" name="user" formControlName="email" class="margin-bottom-15">
+  <br>
+  <input type="text" placeholder="Contraseña" name="password" formControlName="password" class="margin-bottom-15">
+  <br>
+
+  <button (click)="login(user, password)">Ingresar</button>
+  </form>
+</div>
+

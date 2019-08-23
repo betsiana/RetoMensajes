@@ -1,0 +1,7 @@
+{
+  "/api/*": {
+    "target": "https://ti.ucic.pe",
+    "secure": false,
+    "changeOrigin": true
+  }
+}
