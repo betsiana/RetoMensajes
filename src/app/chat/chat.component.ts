@@ -11,12 +11,9 @@ import { CommentsService } from './services/chat.service';
 export class ChatComponent implements OnInit {
 
   constructor(
-    private _shareDataService: ShareDataService, // ahora leeremos el token
+    private _shareDataService: ShareDataService,
     private _commentsService: CommentsService,
   ) { }
-
-  // Betsi me voy un rato al  cumple de mi primo ok graci as bien, tratared e seguir
-// OK WAIT te dejare con e l router bueno  leugo continuamos ....oki
 
 
   ngOnInit() {
